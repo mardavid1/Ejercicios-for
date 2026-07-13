@@ -17,6 +17,8 @@ function ejecutar(numEjercicio) {
         listarNumerosReversa();
     } else if(numEjercicio==3){
         listarPares();
+    } else if (numEjercicio==4){
+        listaImpares();
     }
 }
 
@@ -24,5 +26,11 @@ function listarPares(){
     for(let i=0;i<10;i+=2){
         console.log(i)
 
+    }
+}
+
+function listaImpares(){
+    for (let i=1;i<=8;i+=2){
+        console.log(i)
     }
 }
