@@ -184,3 +184,54 @@ footer strong{
     }
 
 }
+
+/* ==========================
+   CAJA DE TEXTO
+========================== */
+
+.cajaTexto{
+
+    width:100%;
+
+    padding:16px;
+
+    margin-bottom:25px;
+
+    border:1px solid rgba(0,229,255,.4);
+
+    border-radius:12px;
+
+    background:rgba(255,255,255,.05);
+
+    color:white;
+
+    font-size:18px;
+
+    outline:none;
+
+    backdrop-filter:blur(10px);
+
+    transition:.3s;
+
+    box-shadow:
+        0 0 10px rgba(0,229,255,.15);
+
+}
+
+.cajaTexto::placeholder{
+
+    color:#9ecfff;
+
+}
+
+.cajaTexto:focus{
+
+    border-color:#00e5ff;
+
+    box-shadow:
+        0 0 10px #00e5ff,
+        0 0 25px rgba(0,229,255,.4);
+
+    background:rgba(255,255,255,.08);
+
+}

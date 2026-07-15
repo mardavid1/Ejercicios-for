@@ -2,7 +2,8 @@ function generarTablas() {
 
     let contenedor = document.getElementById("contenedor");
     let contenido = "";
-    let tabla = 4; 
+
+    let tabla = parseInt(document.getElementById("txtTabla").value);
 
     contenido += "<h1>Tabla del " + tabla + "</h1>";
 
